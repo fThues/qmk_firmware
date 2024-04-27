@@ -7,7 +7,7 @@ for more options.
 
 // ┌─────────────────────────────────────────────────┐
 // │ p r i m a r y   s i d e                         │
-// └─────────────────────────────────────────────────┘ 
+// └─────────────────────────────────────────────────┘
 
 #define MASTER_LEFT
 // #define MASTER_RIGHT
@@ -15,12 +15,9 @@ for more options.
 
 // ┌─────────────────────────────────────────────────┐
 // │ h o m e   r o w   m o d s                       │
-// └─────────────────────────────────────────────────┘ 
+// └─────────────────────────────────────────────────┘
 
 #define TAPPING_TERM 170
-
-// Prevent normal rollover on alphas from accidentally triggering mods.
-#define IGNORE_MOD_TAP_INTERRUPT
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD
@@ -37,14 +34,14 @@ for more options.
 
 // ┌─────────────────────────────────────────────────┐
 // │ c o m b o s                                     │
-// └─────────────────────────────────────────────────┘ 
+// └─────────────────────────────────────────────────┘
 
 #define COMBO_COUNT 2
 
 
 // ┌─────────────────────────────────────────────────┐
 // │ t r a c k b a l l                               │
-// └─────────────────────────────────────────────────┘ 
+// └─────────────────────────────────────────────────┘
 
 #ifdef POINTING_DEVICE_ENABLE
 #    define SPLIT_POINTING_ENABLE
@@ -55,7 +52,7 @@ for more options.
 
 // ┌─────────────────────────────────────────────────┐
 // │ r g b l e d s                                   │
-// └─────────────────────────────────────────────────┘ 
+// └─────────────────────────────────────────────────┘
 
 // RGB matrix support
 #ifdef RGB_MATRIX_ENABLE
